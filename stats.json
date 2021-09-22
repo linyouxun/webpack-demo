@@ -1,0 +1,857 @@
+{
+  "hash": "f3485cf550490b3d9d3f",
+  "version": "5.52.0",
+  "time": 117,
+  "builtAt": 1631180116733,
+  "publicPath": "auto",
+  "outputPath": "E:\\demo\\webpack-demo\\dist",
+  "assetsByChunkName": {
+    "a": [
+      "a.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "a.js",
+      "size": 4264,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 4264
+      },
+      "chunkNames": [
+        "a"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "a"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1082,
+      "sizes": {
+        "javascript": 412,
+        "runtime": 670
+      },
+      "names": [
+        "a"
+      ],
+      "idHints": [],
+      "runtime": [
+        "a"
+      ],
+      "files": [
+        "a.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "29a029aad7245c9631c6",
+      "childrenByOrder": {},
+      "id": "a",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 244,
+          "sizes": {
+            "javascript": 244
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\demo\\webpack-demo\\src\\a.js",
+          "name": "./src/a.js",
+          "nameForCondition": "E:\\demo\\webpack-demo\\src\\a.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "issuerName": "./src/index-a.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "name": "./src/index-a.js",
+              "id": "./src/index-a.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/a.js",
+          "issuerId": "./src/index-a.js",
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "module": "./src/index-a.js",
+              "moduleName": "./src/index-a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "resolvedModule": "./src/index-a.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./a",
+              "loc": "1:0-24",
+              "moduleId": "./src/index-a.js",
+              "resolvedModuleId": "./src/index-a.js"
+            },
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "module": "./src/index-a.js",
+              "moduleName": "./src/index-a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "resolvedModule": "./src/index-a.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./a",
+              "loc": "4:0-1",
+              "moduleId": "./src/index-a.js",
+              "resolvedModuleId": "./src/index-a.js"
+            },
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "module": "./src/index-a.js",
+              "moduleName": "./src/index-a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "resolvedModule": "./src/index-a.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./a",
+              "loc": "6:14-27",
+              "moduleId": "./src/index-a.js",
+              "resolvedModuleId": "./src/index-a.js"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "A",
+            "A2",
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 47,
+          "sizes": {
+            "javascript": 47
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\demo\\webpack-demo\\src\\b.js",
+          "name": "./src/b.js",
+          "nameForCondition": "E:\\demo\\webpack-demo\\src\\b.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "issuerName": "./src/index-a.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "name": "./src/index-a.js",
+              "id": "./src/index-a.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/b.js",
+          "issuerId": "./src/index-a.js",
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+              "module": "./src/a.js",
+              "moduleName": "./src/a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+              "resolvedModule": "./src/a.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./b",
+              "loc": "1:0-24",
+              "moduleId": "./src/a.js",
+              "resolvedModuleId": "./src/a.js"
+            },
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+              "module": "./src/a.js",
+              "moduleName": "./src/a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+              "resolvedModule": "./src/a.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./b",
+              "loc": "20:0-1",
+              "moduleId": "./src/a.js",
+              "resolvedModuleId": "./src/a.js"
+            },
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "module": "./src/index-a.js",
+              "moduleName": "./src/index-a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "resolvedModule": "./src/index-a.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./b",
+              "loc": "2:0-24",
+              "moduleId": "./src/index-a.js",
+              "resolvedModuleId": "./src/index-a.js"
+            },
+            {
+              "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "module": "./src/index-a.js",
+              "moduleName": "./src/index-a.js",
+              "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "resolvedModule": "./src/index-a.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./b",
+              "loc": "3:0-1",
+              "moduleId": "./src/index-a.js",
+              "resolvedModuleId": "./src/index-a.js"
+            }
+          ],
+          "usedExports": [
+            "B"
+          ],
+          "providedExports": [
+            "B"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 121,
+          "sizes": {
+            "javascript": 121
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "name": "./src/index-a.js",
+          "nameForCondition": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/index-a.js",
+          "issuerId": null,
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "E:\\demo\\webpack-demo\\src\\index-a.js",
+              "loc": "a",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "a"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "a",
+          "request": "E:\\demo\\webpack-demo\\src\\index-a.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 121,
+      "sizes": {
+        "javascript": 121
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+      "name": "./src/index-a.js",
+      "nameForCondition": "E:\\demo\\webpack-demo\\src\\index-a.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/index-a.js",
+      "issuerId": null,
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "loc": "a",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 244,
+      "sizes": {
+        "javascript": 244
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\demo\\webpack-demo\\src\\a.js",
+      "name": "./src/a.js",
+      "nameForCondition": "E:\\demo\\webpack-demo\\src\\a.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\demo\\webpack-demo\\src\\index-a.js",
+      "issuerName": "./src/index-a.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "name": "./src/index-a.js",
+          "id": "./src/index-a.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/a.js",
+      "issuerId": "./src/index-a.js",
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "module": "./src/index-a.js",
+          "moduleName": "./src/index-a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "resolvedModule": "./src/index-a.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./a",
+          "loc": "1:0-24",
+          "moduleId": "./src/index-a.js",
+          "resolvedModuleId": "./src/index-a.js"
+        },
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "module": "./src/index-a.js",
+          "moduleName": "./src/index-a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "resolvedModule": "./src/index-a.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./a",
+          "loc": "4:0-1",
+          "moduleId": "./src/index-a.js",
+          "resolvedModuleId": "./src/index-a.js"
+        },
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "module": "./src/index-a.js",
+          "moduleName": "./src/index-a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "resolvedModule": "./src/index-a.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./a",
+          "loc": "6:14-27",
+          "moduleId": "./src/index-a.js",
+          "resolvedModuleId": "./src/index-a.js"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "A",
+        "A2",
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 47,
+      "sizes": {
+        "javascript": 47
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\demo\\webpack-demo\\src\\b.js",
+      "name": "./src/b.js",
+      "nameForCondition": "E:\\demo\\webpack-demo\\src\\b.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\demo\\webpack-demo\\src\\index-a.js",
+      "issuerName": "./src/index-a.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "name": "./src/index-a.js",
+          "id": "./src/index-a.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/b.js",
+      "issuerId": "./src/index-a.js",
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+          "module": "./src/a.js",
+          "moduleName": "./src/a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+          "resolvedModule": "./src/a.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./b",
+          "loc": "1:0-24",
+          "moduleId": "./src/a.js",
+          "resolvedModuleId": "./src/a.js"
+        },
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+          "module": "./src/a.js",
+          "moduleName": "./src/a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\a.js",
+          "resolvedModule": "./src/a.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./b",
+          "loc": "20:0-1",
+          "moduleId": "./src/a.js",
+          "resolvedModuleId": "./src/a.js"
+        },
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "module": "./src/index-a.js",
+          "moduleName": "./src/index-a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "resolvedModule": "./src/index-a.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./b",
+          "loc": "2:0-24",
+          "moduleId": "./src/index-a.js",
+          "resolvedModuleId": "./src/index-a.js"
+        },
+        {
+          "moduleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "module": "./src/index-a.js",
+          "moduleName": "./src/index-a.js",
+          "resolvedModuleIdentifier": "E:\\demo\\webpack-demo\\src\\index-a.js",
+          "resolvedModule": "./src/index-a.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./b",
+          "loc": "3:0-1",
+          "moduleId": "./src/index-a.js",
+          "resolvedModuleId": "./src/index-a.js"
+        }
+      ],
+      "usedExports": [
+        "B"
+      ],
+      "providedExports": [
+        "B"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "a"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "a": {
+      "name": "a",
+      "chunks": [
+        "a"
+      ],
+      "assets": [
+        {
+          "name": "a.js",
+          "size": 4264
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 4264,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "a": {
+      "name": "a",
+      "chunks": [
+        "a"
+      ],
+      "assets": [
+        {
+          "name": "a.js",
+          "size": 4264
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 4264,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}

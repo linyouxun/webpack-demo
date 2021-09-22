@@ -1,2 +1,4 @@
-import { C } from "./c";
-C();
+import DD, { D } from "./d";
+D();
+DD();
+console.log("log");

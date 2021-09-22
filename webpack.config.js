@@ -1,5 +1,5 @@
 const path = require("path");
-const RevertTracePlugin = require("./plugin/RevertTracePlugin");
+// const CopyPlugin = require("./plugin/CopyPlugin");
 
 module.exports = {
   mode: "development",
@@ -15,8 +15,10 @@ module.exports = {
   // },
 
   entry: {
-    a: path.resolve(__dirname, "./src/index-a.js"),
-    // b: path.resolve(__dirname, "./src/index-b.js"),
+    index: {
+      import: path.resolve(__dirname, "./src/index-b.js"),
+      runtime: "solid-runtime",
+    },
   },
   devtool: false,
   // target: "web",
@@ -24,5 +26,5 @@ module.exports = {
   optimization: {
     usedExports: true,
   },
-  plugins: [new RevertTracePlugin()],
+  // plugins: [new CopyPlugin({ from: "./src", to: "./dist" })],
 };

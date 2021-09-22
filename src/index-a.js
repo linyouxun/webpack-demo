@@ -3,6 +3,6 @@ import { B } from "./b";
 B();
 A();
 (() => {
-  const Fun = import("./a");
+  const Fun = import("./c");
   Fun();
 })();

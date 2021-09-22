@@ -1,11 +1,17 @@
 lockfileVersion: 5.3
 
 specifiers:
+  graceful-fs: ^4.2.8
+  tapable: ^2.2.0
   webpack: ^5.52.0
   webpack-cli: ^4.8.0
+  webpack-sources: ^3.2.1
 
 dependencies:
-  webpack: registry.nlark.com/webpack/5.52.0
+  graceful-fs: 4.2.8
+  tapable: 2.2.0
+  webpack: registry.nlark.com/webpack/5.52.0_webpack-cli@4.8.0
+  webpack-sources: 3.2.1
 
 devDependencies:
   webpack-cli: registry.nlark.com/webpack-cli/4.8.0_webpack@5.52.0
@@ -79,6 +85,10 @@ packages:
 
   /glob-to-regexp/0.4.1:
     resolution: {integrity: sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4=, tarball: https://registry.npm.taobao.org/glob-to-regexp/download/glob-to-regexp-0.4.1.tgz}
+    dev: false
+
+  /graceful-fs/4.2.8:
+    resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: false
 
   /has/1.0.3:
@@ -251,6 +261,11 @@ packages:
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=, tarball: https://registry.npm.taobao.org/v8-compile-cache/download/v8-compile-cache-2.3.0.tgz}
     dev: true
+
+  /webpack-sources/3.2.1:
+    resolution: {integrity: sha512-t6BMVLQ0AkjBOoRTZgqrWm7xbXMBzD+XDq2EZ96+vMfn3qKgsvdXZhbPZ4ElUOpdv4u+iiGe+w3+J75iy/bYGA==}
+    engines: {node: '>=10.13.0'}
+    dev: false
 
   /which/2.0.2:
     resolution: {integrity: sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=, tarball: https://registry.npm.taobao.org/which/download/which-2.0.2.tgz}
@@ -448,7 +463,7 @@ packages:
       webpack: 4.x.x || 5.x.x
       webpack-cli: 4.x.x
     dependencies:
-      webpack: registry.nlark.com/webpack/5.52.0
+      webpack: registry.nlark.com/webpack/5.52.0_webpack-cli@4.8.0
       webpack-cli: registry.nlark.com/webpack-cli/4.8.0_webpack@5.52.0
     dev: true
 
@@ -841,7 +856,17 @@ packages:
     version: 5.2.3
     engines: {node: '>= 10.13.0'}
     peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
       webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
     dependencies:
       jest-worker: registry.nlark.com/jest-worker/27.1.0
       p-limit: registry.nlark.com/p-limit/3.1.0
@@ -849,7 +874,7 @@ packages:
       serialize-javascript: registry.nlark.com/serialize-javascript/6.0.0
       source-map: 0.6.1
       terser: registry.nlark.com/terser/5.7.2
-      webpack: registry.nlark.com/webpack/5.52.0
+      webpack: registry.nlark.com/webpack/5.52.0_webpack-cli@4.8.0
     dev: false
 
   registry.nlark.com/terser/5.7.2:
@@ -909,7 +934,7 @@ packages:
       interpret: 2.2.0
       rechoir: registry.nlark.com/rechoir/0.7.1
       v8-compile-cache: 2.3.0
-      webpack: registry.nlark.com/webpack/5.52.0
+      webpack: registry.nlark.com/webpack/5.52.0_webpack-cli@4.8.0
       webpack-merge: registry.nlark.com/webpack-merge/5.8.0
     dev: true
 
@@ -930,12 +955,18 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  registry.nlark.com/webpack/5.52.0:
+  registry.nlark.com/webpack/5.52.0_webpack-cli@4.8.0:
     resolution: {integrity: sha1-iNmXwsPrtiq8qkU9Kibg/ZF8caM=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/webpack/download/webpack-5.52.0.tgz}
+    id: registry.nlark.com/webpack/5.52.0
     name: webpack
     version: 5.52.0
     engines: {node: '>=10.13.0'}
     hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
     dependencies:
       '@types/eslint-scope': registry.nlark.com/@types/eslint-scope/3.7.1
       '@types/estree': registry.nlark.com/@types/estree/0.0.50
@@ -960,7 +991,12 @@ packages:
       tapable: 2.2.0
       terser-webpack-plugin: registry.nlark.com/terser-webpack-plugin/5.2.3_webpack@5.52.0
       watchpack: registry.nlark.com/watchpack/2.2.0
+      webpack-cli: registry.nlark.com/webpack-cli/4.8.0_webpack@5.52.0
       webpack-sources: registry.nlark.com/webpack-sources/3.2.0
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
     dev: false
 
   registry.nlark.com/wildcard/2.0.0:
